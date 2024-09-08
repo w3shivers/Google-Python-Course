@@ -55,7 +55,7 @@ def front_x(words: list) -> list:
 # e.g. [(1, 7), (1, 3), (3, 4, 5), (2, 2)] yields
 # [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
 # Hint: use a custom key= function to extract the last element form each tuple.
-def last_char(tuple: tuple):
+def last_char(tuple: tuple) -> int:
   return tuple[-1]
 
 def sort_last(tuples: list) -> list:
